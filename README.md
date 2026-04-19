@@ -1,4 +1,4 @@
-# Difficult Bulletin Board - Addon for WoW 3.3.5
+# Difficult Bulletin Board - Addon for WoW Epoch
 
 **Difficult Bulletin Board** is a World of Warcraft 3.3.5 addon inspired by the LFG Group Bulletin Board. It scans chat and organizes messages into an easy-to-read UI, making it more convenient to find what you need.
 
