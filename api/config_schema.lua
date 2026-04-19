@@ -351,7 +351,7 @@ function DBB2.api.RenderConfigSchema(panel, schema, options)
     if scrollFrame.UpdateScrollState then
       scrollFrame.UpdateScrollState()
     end
-    if origOnShow then origOnShow() end
+    if origOnShow then origOnShow(self) end
   end)
   
   return { scrollFrame = scrollFrame, scrollChild = scrollChild, widgets = panel._widgets, panel = panel }

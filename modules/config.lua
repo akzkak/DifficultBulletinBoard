@@ -12,7 +12,7 @@ DBB2:RegisterModule("config", function()
   -- Scroll update on show
   local originalConfigOnShow = configPanel:GetScript("OnShow")
   configPanel:SetScript("OnShow", function(self)
-    if originalConfigOnShow then originalConfigOnShow() end
+    if originalConfigOnShow then originalConfigOnShow(self) end
     if DBB2.gui.configTabs and DBB2.gui.configTabs.activeTab then
       local activePanel = DBB2.gui.configTabs.panels[DBB2.gui.configTabs.activeTab]
       if activePanel and activePanel.scrollFrame then
